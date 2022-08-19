@@ -39,7 +39,7 @@ services:
       MYSQL_USER: php_course
       MYSQL_PASSWORD: dev@123
       MYSQL_ROOT_PASSWORD: dev@123
-      MYSQL_ROOT_HOST: '%'
+      MYSQL_ROOT_HOST: localhost
       TZ: Asia/Ho_Chi_Minh
     volumes:
       - mysql-db:/var/lib/mysql/
